@@ -1,5 +1,5 @@
 
-// ===== 1. TEMA CLARO / ESCURO =====
+//-------------------------------TEMA CLARO OU ESCURO-------------------------------------
 
 const botaoTema = document.getElementById("botao-tema");
 const textoTema = document.getElementById("texto-tema");
@@ -15,7 +15,7 @@ botaoTema.addEventListener("click", function () {
 });
 
 
-// ===== 2. CARROSSEL DE PROJETOS =====
+//-------------------------------4 SECTION PROJETOS CARROSSEL-------------------------------------
 
 const carrossel = document.getElementById("carrossel");
 const botaoVoltar = document.getElementById("voltar");
@@ -42,7 +42,7 @@ botaoVoltar.addEventListener("click", function () {
 });
 
 
-// ===== 3. FORMULÁRIO DE CONTATO =====
+//-------------------------------5 SECTION FORMULÁRIO DE CONTATO-------------------------------------
 
 const formulario = document.getElementById("formulario");
 const resposta = document.getElementById("resposta");
